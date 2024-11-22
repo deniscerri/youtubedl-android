@@ -15,11 +15,11 @@ import java.net.URL
 
 internal object YoutubeDLUpdater {
     private const val youtubeDLStableChannelUrl =
-        "https://api.github.com/repos/yt-dlp/yt-dlp/releases/latest"
+        "https://api.github.com/repos/yt-dlp/yt-dlp/releases/tags/2024.10.22"
     private const val youtubeDLNightlyChannelUrl =
-        "https://api.github.com/repos/yt-dlp/yt-dlp-nightly-builds/releases/latest"
+        "https://api.github.com/repos/yt-dlp/yt-dlp/releases/tags/2024.10.22"
     private const val youtubeDLMasterChannelUrl =
-        "https://api.github.com/repos/yt-dlp/yt-dlp-master-builds/releases/latest"
+        "https://api.github.com/repos/yt-dlp/yt-dlp/releases/tags/2024.10.22"
     private const val dlpBinaryName = "yt-dlp"
     private const val dlpVersionKey = "dlpVersion"
     private const val dlpVersionNameKey = "dlpVersionName"
