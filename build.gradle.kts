@@ -1,6 +1,3 @@
-import com.android.build.api.dsl.Publishing
-import com.android.build.gradle.internal.cxx.os.exe
-
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     val kotlin_version by extra("1.7.22")
@@ -14,7 +11,7 @@ buildscript {
 
     }
     dependencies {
-        classpath("com.android.tools.build:gradle:7.4.2")
+        classpath("com.android.tools.build:gradle:8.13.0")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -23,8 +20,8 @@ buildscript {
 }
 
 val versionMajor = 0
-val versionMinor = 17
-val versionPatch = 2
+val versionMinor = 18
+val versionPatch = 0
 val versionBuild = 0 // bump for dogfood builds, public betas, etc.
 val versionCode = versionMajor * 100000 + versionMinor * 1000 + versionPatch * 100 + versionBuild
 val versionName = "$versionMajor.$versionMinor.$versionPatch"
