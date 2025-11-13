@@ -1,7 +1,7 @@
 # youtubedl-android
 Android library wrapper for [yt-dlp](https://github.com/yt-dlp/yt-dlp) (formerly [youtube-dl](https://github.com/rg3/youtube-dl)) executable
 
-![Maven Central Version](https://img.shields.io/maven-central/v/io.github.junkfood02.youtubedl-android/library)
+![Maven Central Version](https://img.shields.io/maven-central/v/io.github.deniscerri.youtubedl-android/library)
 
 
 ## Credits
@@ -33,7 +33,7 @@ If you wish to use config file in the download option by using this command `--c
 
 Checkout [dvd](https://github.com/yausername/dvd), a video downloader app based on this library.
 
-Also take a look at [Seal](https://github.com/JunkFood02/Seal), another video/audio downloader app which demonstrates a more advanced and customized use of this library.
+Also take a look at [YTDLnis](https://github.com/deniscerri/ytdlnis), another video/audio downloader app which demonstrates a more advanced and customized use of this library.
 
 ## Installation
 
@@ -47,9 +47,9 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.junkfood02.youtubedl-android:library:$youtubedlAndroid")
-    implementation("io.github.junkfood02.youtubedl-android:ffmpeg:$youtubedlAndroid")
-    implementation("io.github.junkfood02.youtubedl-android:aria2c:$youtubedlAndroid") // optional
+    implementation("io.github.deniscerri.youtubedl-android:library:$youtubedlAndroid")
+    implementation("io.github.deniscerri.youtubedl-android:ffmpeg:$youtubedlAndroid")
+    implementation("io.github.deniscerri.youtubedl-android:aria2c:$youtubedlAndroid") // optional
 }
 ```
 
