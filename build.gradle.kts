@@ -63,7 +63,7 @@ tasks.register("packagePublishedArtifacts") {
                 "zip",
                 "-r",
                 project.buildDir.resolve("archive-$versionName.zip").absolutePath,
-            ) + librariesToPublish.map { "io/github/junkfood02/youtubedl-android/$it/$versionName" }
+            ) + librariesToPublish.map { "io/github/deniscerri/youtubedl-android/$it/$versionName" }
 
             commandLine(zipCommands)
         }
