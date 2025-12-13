@@ -40,7 +40,7 @@ Also take a look at [YTDLnis](https://github.com/deniscerri/ytdlnis), another vi
 ### Gradle
 
 ```kotlin
-val youtubedlAndroid = "0.18.0"
+val youtubedlAndroid = "0.18.1"
 
 repositories {
     mavenCentral()
