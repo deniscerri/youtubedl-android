@@ -245,7 +245,13 @@ object YoutubeDL {
         }
         val out = outBuffer.toString()
         val err = errBuffer.toString()
-        if (exitCode > 0) {
+
+        val successCodes = listOf(
+            0, //Everything is successful,
+            100, //yt-dlp -U fails but the downloads is successful
+        )
+
+        if (!successCodes.contains(exitCode)) {
             if (processId != null && !idProcessMap.containsKey(processId))
                 throw CanceledException()
             if (!ignoreErrors(request, out)) {
