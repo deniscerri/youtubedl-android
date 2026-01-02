@@ -33,7 +33,7 @@ If you wish to use config file in the download option by using this command `--c
 
 Checkout [dvd](https://github.com/yausername/dvd), a video downloader app based on this library.
 
-Also take a look at [Seal](https://github.com/junkfood02/Seal), another video/audio downloader app which demonstrates a more advanced and customized use of this library.
+Also take a look at [Seal](https://github.com/JunkFood02/Seal), another video/audio downloader app which demonstrates a more advanced and customized use of this library.
 
 ## Installation
 
