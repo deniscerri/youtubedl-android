@@ -15,7 +15,7 @@ internal fun Project.configurePublish(id: String) {
     configure<PublishingExtension> {
         publications {
             create<MavenPublication>("release") {
-                groupId = "io.github.deniscerri.youtubedl-android"
+                groupId = "io.github.junkfoo02.youtubedl-android"
                 artifactId = id
                 version = project.version.toString()
 
